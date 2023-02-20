@@ -1,3 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Alatsi{
+  font-family: 'Alatsi', sans-serif;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
