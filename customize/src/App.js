@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Customize - Quadros</h1>
-        <p>Create React App/ Esquema de pastas</p>
+        <p>Instalando pacotes necessários...</p>
       </header>
     </div>
   );
