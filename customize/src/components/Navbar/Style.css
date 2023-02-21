@@ -47,6 +47,7 @@
     
     background-color: #333333;
     border-radius: 5px;
+    z-index: 500;
 }
 
 .header .menu-hamburguer .navbar-h.active{

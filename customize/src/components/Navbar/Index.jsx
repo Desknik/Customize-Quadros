@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Logo(props){
   return(
     <Box sx={props.sx}>
-      <img style={{width: '50px', height: '50px', cursor:'pointer'}} src={logo} alt="logo" />
+      <img style={{width: '60px', height: '60px', cursor:'pointer'}} className="hoverScale" src={logo} alt="logo" />
     </Box>
   )
 }
