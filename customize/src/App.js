@@ -9,7 +9,7 @@ function App() {
       <Home />
       <header className="App-header">
         <h1>Customize - Quadros</h1>
-        <p>Criando o Hero...</p>
+        <p>Criando o Main...</p>
       </header>
     </div>
   );

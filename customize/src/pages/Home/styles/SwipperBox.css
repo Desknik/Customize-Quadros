@@ -1,0 +1,174 @@
+.SwipperBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+}
+
+.SwipperBox .tittle{
+    text-align: left;
+}
+
+.SwipperBox .carrousel{
+    width: 100%;
+}
+
+.SwipperBox .carrousel .imgQuadro{
+    width: 180px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.SwipperBox .textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 80px;
+    padding: 20px 10px;
+
+    color: white;
+    background-color: #161A1D;
+}
+
+.SwipperBox .textBox h4{
+    font-size: 1em;
+    font-weight: 600;
+
+    color: white;
+    text-align: center;
+}
+
+.SwipperBox .textBox p{
+    font-size: 1em;
+    font-weight: 400;
+
+    color: white;
+    text-align: center;
+}
+
+
+@media (min-width: 900px) {
+    .SwipperBox{
+        position: relative;
+        flex-direction: row;
+    }
+
+
+    .SwipperBox .carrousel{
+        width: 50%;
+    }
+    
+    .SwipperBox .textBox{
+        position: absolute;
+        right: 0;
+    
+        width: 48%;
+        height: 300px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .SwipperBox .carrousel{
+        width: 60%;
+    }
+    
+    .SwipperBox .textBox{
+        width: 40%;
+    }
+}
+
+
+/* SwipperBox Right */
+
+.SwipperBoxR{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+}
+
+.SwipperBoxR .tittle{
+    text-align: left;
+}
+
+.SwipperBoxR .carrousel{
+    width: 100%;
+}
+
+.SwipperBoxR .carrousel .imgQuadro{
+    width: 180px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.SwipperBoxR .textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 80px;
+    padding: 20px 10px;
+
+    color: white;
+    background-color: #161A1D;
+}
+
+.SwipperBoxR .textBox h4{
+    font-size: 1em;
+    font-weight: 600;
+
+    color: white;
+    text-align: center;
+}
+
+.SwipperBoxR .textBox p{
+    font-size: 1em;
+    font-weight: 400;
+
+    color: white;
+    text-align: center;
+}
+
+
+@media (min-width: 900px) {
+    .SwipperBoxR{
+        position: relative;
+        flex-direction: row;
+    }
+
+
+    .SwipperBoxR .carrousel{
+        width: 50%;
+    }
+    
+    .SwipperBoxR .textBox{
+        position: absolute;
+        left: 0;
+    
+        width: 48%;
+        height: 300px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .SwipperBoxR .carrousel{
+        width: 60%;
+    }
+    
+    .SwipperBoxR .textBox{
+        width: 40%;
+    }
+}

@@ -19,6 +19,14 @@
   transform: scale(1.1);
 }
 
+.opacityHover{
+  opacity: 1;
+}
+
+.opacityHover:hover{
+  opacity: 0.9;
+}
+
 
 body {
   margin: 0;

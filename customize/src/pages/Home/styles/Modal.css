@@ -1,0 +1,58 @@
+.Modal{
+    width: 400px;
+
+    position: absolute;
+    padding: 15px 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Modal:focus{
+    outline: none !important;
+}
+
+
+.Modal img{
+    width: 280px;
+    height: 380px;
+}
+
+.Modal h2{
+    font-size: 1.7em;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.Modal h3{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Modal p{
+    text-align: center;
+}
+
+.Modal .btn-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(97.18deg, #8C59FA 5.77%, #BA1896 81.75%);
+    border-radius: 20px;
+}
